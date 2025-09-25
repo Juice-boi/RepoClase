@@ -3,11 +3,11 @@ Algoritmo Actividad_1_9
 	Escribir "ingrese numero"
 	Leer Num
 	
-	cont = 10
-	Mientras cont > 0 Hacer
-		temp = num*(11-cont)
-		Escribir (11 - cont), " x ", num, " = ", temp 
-		cont = cont - 1
+	cont = 0
+	Mientras cont < 10 Hacer
+		temp = num*(cont+1)
+		Escribir num, " x ", (cont+1), " = ", temp 
+		cont = cont + 1
 	FinMientras
 	
 FinAlgoritmo
